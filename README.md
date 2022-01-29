@@ -6,7 +6,7 @@
 * Richard M Reese - Learning Network Programming with Java
 
 - - -
-**thanks to**      
+### **thanks to**      
 * https://github.com/tommybuonomo/dotsindicator
 ```
 Copyright 2016 Tommy Buonomo
