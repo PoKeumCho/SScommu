@@ -1,6 +1,6 @@
 # SScommu   
 
-## Google Play Console 승인 거부 될 경우 대비   
+* ### Google Play Console 승인 거부 될 경우 대비   
 [sscommu.zip](https://github.com/PoKeumCho/SScommu/files/8001249/sscommu.zip)
 
 - - -
