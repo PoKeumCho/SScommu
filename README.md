@@ -1,8 +1,8 @@
 # SScommu   
 
 * ### Google Play Console 승인 거부 될 경우 대비   
-[sscommu.zip](https://github.com/PoKeumCho/SScommu/files/8001249/sscommu.zip)
-
+    * Download this file --> [sscommu.zip](https://github.com/PoKeumCho/SScommu/files/8001249/sscommu.zip)   
+    * Install guide --> https://youtu.be/s8CKTJGXTyY   
 - - -
 **References (참고자료)**     
 * John Horton - Android Programming for Beginners (Third Edition)
