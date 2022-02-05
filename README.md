@@ -2,7 +2,16 @@
 
 * ### Google Play Console 승인 거부 될 경우 대비   
     * Download this file --> [sscommu.zip](https://github.com/PoKeumCho/SScommu/files/8007491/sscommu.zip)    
-    * Install guide --> https://youtu.be/s8CKTJGXTyY   
+    * Install guide --> https://youtu.be/s8CKTJGXTyY    
+- - -
+## 1. 앱 구동 화면   
+https://youtu.be/reUBRXz0O3c   
+## 2. 실시간 채팅 구현   
+https://youtu.be/2cVoAhHlaVE   
+   
+
+
+
 - - -
 **References (참고자료)**     
 * John Horton - Android Programming for Beginners (Third Edition)
