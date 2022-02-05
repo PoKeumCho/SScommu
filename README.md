@@ -9,8 +9,7 @@ https://youtu.be/reUBRXz0O3c
 ## 2. 실시간 채팅 구현   
 https://youtu.be/2cVoAhHlaVE   
    
-
-
+![chat_PC_APP_1_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/88548181/152631610-33ce8b5a-ccb0-4213-9a31-fb49cea04c0a.gif)
 
 - - -
 **References (참고자료)**     
