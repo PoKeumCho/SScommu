@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtOpponentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="Opponent Id"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/alarmImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtOpponentId"
+            android:visibility="gone"
+            app:srcCompat="@drawable/alarm_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBlock"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/default_button"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="차단"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RelativeLayout>
+</LinearLayout>

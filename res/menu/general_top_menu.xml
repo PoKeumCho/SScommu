@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search" />
+
+    <item
+        android:id="@+id/action_write"
+        android:title="@string/action_write" />
+
+    <item
+        android:id="@+id/action_delete_category"
+        android:title="@string/action_delete_category" />
+
+</menu>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editTextClassName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="과목명"
+        android:inputType="text"
+        android:maxLength="30"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextClassInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="추가정보"
+        android:inputType="text"
+        android:maxLength="30"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:id="@+id/classTimeInputLayout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/daySpinner_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/schedule_header_title"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="요일 /"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/firstPeriodSpinner_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/spinner_period_options"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="교시 -"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/lastPeriodSpinner_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/spinner_period_options"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교시"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/btnErase_1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/small_cancel_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/classTimeInputLayout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/daySpinner_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/schedule_header_title"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="요일 /"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/firstPeriodSpinner_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/spinner_period_options"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="교시 -"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/lastPeriodSpinner_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/spinner_period_options"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교시"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/btnErase_2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/small_cancel_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/classTimeInputLayout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/daySpinner_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/schedule_header_title"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="요일 /"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/firstPeriodSpinner_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/spinner_period_options"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="교시 -"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/lastPeriodSpinner_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/default_edittext"
+            android:entries="@array/spinner_period_options"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교시"
+            android:textColor="@color/blackish"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/btnErase_3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/small_cancel_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>
