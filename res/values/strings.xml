@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">성신커뮤</string>
+
+    <string name="app_title">SScommunity</string>
+
+    <string name="title_home">홈</string>
+    <string name="title_general">게시판</string>
+    <string name="title_schedule">시간표</string>
+    <string name="title_trade">중고거래</string>
+
+    <string name="action_chat">채팅</string>
+    <string name="action_myinfo">내 정보</string>
+    <string name="action_logout">로그아웃</string>
+
+    <string name="action_search">게시글 검색</string>
+    <string name="action_write">글쓰기</string>
+    <string name="action_delete_category">게시판 삭제하기</string>
+
+    <string name="action_refresh">새로고침</string>
+    <string name="action_delete_general">게시글 삭제</string>
+
+    <string name="action_block">차단하기</string>
+
+    <string name="myarticle_option_general">내가 쓴 글</string>
+    <string name="myarticle_option_comment">댓글 단 글</string>
+
+    <string name="login_activity_login_error_msg">올바른 정보를 입력해주세요.
+        문의사항은 [studyhardworkout
+        @gmail.com] 메일로 보내주시기 바랍니다.</string>
+    <string name="login_activity_sungshin_error_msg">Web에서 성신 인증 후 이용 가능합니다.
+        문의사항은 [studyhardworkout
+        @gmail.com] 메일로 보내주시기 바랍니다.</string>
+    <string name="login_activity_error_msg">알 수 없는 오류가 발생했습니다.
+        네트워크 연결을 확인하세요.</string>
+
+    <string name="main_activity_about_line1">안녕하세요 저는 성신여자대학교 졸업생입니다.</string>
+    <string name="main_activity_about_line2">취업을 준비하면서 프로젝트를</string>
+    <string name="main_activity_about_line3">하나 만들어야겠다고 생각하였지만</string>
+    <string name="main_activity_about_line4">마땅히 무엇을 만들어야 할지 몰라서 고민을 하다가</string>
+    <string name="main_activity_about_line5">우리의 일상생활에서 가장 쉽게 접할 수 있는</string>
+    <string name="main_activity_about_line6">웹사이트를 만들어 보면 어떨까 생각하였습니다.</string>
+    <string name="main_activity_about_line7">이왕 만들 거 최대한 실용적인 걸로</string>
+    <string name="main_activity_about_line8">만들어보자는 생각에</string>
+    <string name="main_activity_about_line9">학교 커뮤니티를 만들게 되었습니다.</string>
+    <string name="main_activity_about_line10">웹 제작 후 추가적으로 앱도 제작하게 되었습니다.</string>
+    <string name="main_activity_about_line11">많이 부족하지만 귀엽게 봐주시면 감사하겠습니다.</string>
+
+    <string name="main_activity_general_remove_category_error">본인이 만든 게시판은 삭제만 가능합니다.</string>
+
+    <string name="gcs_activity_search_info">다른 게시판을 검색해보세요.</string>
+    <string name="gcs_activity_make_category">새 게시판 만들기</string>
+
+    <string name="general_activity_delete">게시판을 삭제하시겠습니까?</string>
+    <string name="general_activity_delete_error">삭제가 불가능한 게시판입니다.</string>
+
+    <string name="edit_general_activity_upload_image_info">이미지 파일은 최대 5개 업로드 가능합니다.</string>
+    <string name="edit_uploading_title">업로드 중입니다.</string>
+    <string name="edit_uploading_message">잠시만 기다려 주세요.</string>
+
+    <string name="dialog_create_category_name_error">이미 사용 중인 게시판 이름입니다.</string>
+    <string name="dialog_create_category_edittext_error">이름과 설명은 필수기재 사항입니다.</string>
+
+    <string name="network_not_available">네트워크 연결을 확인하세요.</string>
+    <string name="default_error_message">오류가 발생했습니다.</string>
+
+    <string name="error_loading_image">이미지 로드에 실패했습니다.</string>
+    <string name="error_saving_image">이미지 저장에 실패했습니다.</string>
+    <string name="saved_image_message">이미지가 저장되었습니다.</string>
+
+    <string name="error_loading_general">글을 불러올 수 없습니다.</string>
+
+    <string name="edit_general_description">글 쓰기</string>
+
+    <string name="write_general_comment">댓글을 입력하세요.</string>
+    <string name="write_general_ccomment">대댓글을 입력하세요.</string>
+
+    <string name="general_likes_msg">이 글을 공감하시겠습니까?</string>
+    <string name="general_dislikes_msg">이 글을 비추하시겠습니까?</string>
+    <string name="general_expel_msg">이 글을 신고하시겠습니까?</string>
+    <string name="general_delete_msg">이 글을 삭제하시겠습니까?</string>
+    <string name="general_write_comment_msg">댓글을 작성하시겠습니까?</string>
+    <string name="general_write_ccomment_msg">대댓글을 작성하시겠습니까?</string>
+
+    <string name="general_write_comment_error_msg">작성중인 댓글이 있습니다. 삭제하시겠습니까?</string>
+    <string name="general_write_ccomment_error_msg">작성중인 대댓글이 있습니다. 삭제하시겠습니까?</string>
+
+    <string name="left_arrow">&lt;</string>
+    <string name="right_arrow">&gt;</string>
+    <string name="my_info_activity_nickname_error">닉네임을 입력해주세요.</string>
+
+    <string-array name="spinner_campus_options">
+        <item>[-- 캠퍼스 --]</item>
+        <item>수정 캠퍼스</item>
+        <item>운정 캠퍼스</item>
+    </string-array>
+
+    <string name="edit_trade_activity_upload_image_info">이미지 파일은 최대 3개 업로드 가능합니다.</string>
+
+    <string name="trade_delete_msg">삭제하시겠습니까?</string>
+    <string name="trade_pull_up_msg">끌어올리시겠습니까?</string>
+
+    <string name="dialog_change_price_error">거래 금액을 0원 이상, 100만원 이하로 설정해주세요.</string>
+
+    <string name="trade_expel_msg">해당 중고거래 글을 신고하시겠습니까?</string>
+    <string name="trade_expel_proceed_before_msg">이미 신고된 중고거래 글입니다.</string>
+
+    <string-array name="schedule_header_title">
+        <item></item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+    </string-array>
+
+    <string-array name="spinner_schedule_search_options">
+        <item>교과목명</item>
+        <item>학수번호</item>
+    </string-array>
+
+    <string name="loading_message">잠시만 기다려주세요</string>
+
+    <string-array name="spinner_period_options">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string name="write_chat">메시지를 입력하세요.</string>
+    <string name="chat_alarm">새로운 채팅이 도착했습니다.</string>
+
+</resources>
